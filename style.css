@@ -254,28 +254,48 @@ span {
 
 @media (max-width: 768px) {
 
-  /* Buttons: Fixed at the bottom */
+ 
   .btn {
-    top: auto;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.95);
-    transform: none;
-    /* Desktop ka transform reset kiya */
     position: fixed;
-    /* Ensures it stays at bottom */
+    transform: translateY(-11rem);
+    left: -1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.95);
     z-index: 1000;
-  }
+}
+.btn button,
+.btn .resume-btn {
+    font-size: 12px;        /* Text chhota */
+    padding: 6px 8px;      /* Button andar se chhota */
+    width: 75px;           /* Fixed small width */
+    margin: 5px 16px;          /* Buttons ke beech gap */
+    
+    border: 1px solid white;
+    cursor: pointer;
+}
 
-  .skills-btn {
-    width: 100px;
-    /* jitni baaki buttons ki approx width hai */
-  }
+.name,
+.container {
+    margin-left: 15px;   /* jitna right shift chahiye utna value badha sakte ho */
+}
+
+
+.socials a {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  margin-right: -25px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+}
+
 
   .close-btn {
     position: sticky;
@@ -286,12 +306,13 @@ span {
     cursor: pointer;
     color: #fff;
     z-index: 1002;
-    background: #000; /* optional taaki text ke upar clean dikhe */
+    background: #000;
+   
   }
 
 
 
-  /* About Me Popup Content */
+  
   .popup-content {
     width: 90%;
     position: relative;
@@ -305,7 +326,7 @@ span {
     max-height: 85vh;
   }
 
-   #popup-text {
+  #popup-text {
     overflow-y: auto;
     flex: 1;
   }

@@ -1,6 +1,6 @@
 // ---------------- Typed.js ----------------
 const typed = new Typed(".auto-type", {
-  strings: ["Frontend Developer", "Programmer", "Author"],
+  strings: [" a Frontend Developer", " a Programmer", " an Author"],
   typeSpeed: 90,
   backSpeed: 40,
   backDelay: 1200,
