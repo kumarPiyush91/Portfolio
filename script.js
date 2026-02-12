@@ -32,9 +32,13 @@ const contentData = {
       </div>
       <div class="about-right">
         <p>
-          I am Piyush Kumar, a Self-Taught Software Engineer turned Author. I have more than 5 years of hands-on experience working as a software engineer. I am the author of 10 books, and my books have been published globally. I live by sharing my knowledge by working on various open-source platforms and help others grow in this technology space. I love coding and writing, allowing others to absorb complex ideas and making them fun, useful, and easy to grasp. I am an individual who is passionate about creating solutions to solve real-life problems by developing new technologies. I LOVE working with individuals who want to do something new and create something totally OUT-OF-THE-BOX, creating amazing digital products. Let’s connect and make something AMAZING together.
-        </p>
-      </div>
+        I am Piyush Kumar, a self-taught software engineer and author with over 5 years of experience in software development. I have authored 10 books that have been published globally.
+
+        I am passionate about coding, writing, and sharing knowledge. I actively contribute to open-source platforms and enjoy simplifying complex ideas into concepts that are easy to understand.
+        
+        Currently, I focus on building real-world applications using emerging technologies. I enjoy collaborating with creative individuals who are driven to build innovative and out-of-the-box solutions.
+      </p>
+        </div>
     </div>
   `,
   skills: `<ul>
