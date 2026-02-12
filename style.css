@@ -234,7 +234,6 @@ span {
   width: 90%;
   padding: 20px;
   color: #fff;
-
   line-height: 1.6;
   overflow: hidden;
   box-sizing: border-box;
@@ -267,18 +266,17 @@ span {
 }
 .btn button,
 .btn .resume-btn {
-    font-size: 12px;        /* Text chhota */
-    padding: 6px 8px;      /* Button andar se chhota */
-    width: 82px;           /* Fixed small width */
-    margin: 5px 16px;          /* Buttons ke beech gap */
-    
+    font-size: 12px;        
+    padding: 6px 8px;      
+    width: 82px;         
+    margin: 5px 16px;          
     border: 1px solid white;
     cursor: pointer;
 }
 
 .name,
 .container {
-    margin-left: 15px;   /* jitna right shift chahiye utna value badha sakte ho */
+    margin-left: 15px;    
 }
 
 
@@ -310,17 +308,12 @@ span {
    
   }
 
-
-
-  
   .popup-content {
     width: 90%;
     position: relative;
     height: auto;
     min-height: 400px;
-
     overflow-y: auto;
-
     display: flex;
     flex-direction: column;
     max-height: 85vh;
@@ -337,12 +330,11 @@ span {
   .about-content {
     display: flex;
     flex-direction: column;
-    /* Image upar, text neeche */
     align-items: center;
     gap: 20px;
   }
 
-  /* Image styling to prevent overflow */
+ 
   .about-left {
     width: 100%;
     display: flex;
@@ -351,12 +343,11 @@ span {
 
   .about-left img {
     width: 150px;
-    /* Choti screen ke liye size fix */
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
     transform: none;
-    /* Kisi bhi desktop tilt/transform ko hatane ke liye */
+    
   }
 
   .about-right {
