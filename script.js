@@ -66,7 +66,7 @@ const contentData = {
           </a></li>
 
       <li><a href="https://realtime-wildfire-tracker.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
-            Project 3 - Realtime-wildfire-Tracker
+            Project 3 - Realtime-wildfire-Tracker : Used NASA EONET API to fetch real-time wildfires globally.
           </a> </li>
           
     <li>  <a href="https://www.npmjs.com/package/funny-error-excuse" class="project-link" target="_blank" rel="noopener noreferrer">
