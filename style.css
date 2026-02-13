@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+#particles-js p {
+    position: absolute;
+    color: white;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+
+
+.name {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+span {
+    color: #fff724;
+}
+
+
+.socials {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    background: #fff724;
+    color: black;
+    transform: translateX(-5px);
+}
+
+
+.btn {
+    position: fixed;
+    left: 10px;
+    top: 55%;
+    transform: translateY(-47.5%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.btn button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.btn a {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.btn button:hover,
+.btn a:hover {
+    background: #fff724;
+    color: black;
+    transform: translateX(6px);
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup-content {
+    width: 700px;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1001;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+
+#popup-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.about-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-left {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-left img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(-5rem);
+    border: 3px solid #fff;
+}
+
+
+.about-right {
+    width: 90%;
+    padding: 20px;
+    color: #fff;
+    line-height: 1.6;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+    transform: translateX(-1rem);
+}
+
+.project-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.project-link:hover {
+    color: #0795ed;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .btn {
+        position: fixed;
+        transform: translateY(-11rem);
+        left: -13px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 1000;
+    }
+
+    .btn button,
+    .btn .resume-btn {
+        font-size: 12px;
+        padding: 6px 8px;
+        width: 82px;
+        margin: 5px 16px;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .name,
+    .container {
+        margin-left: 25px;
+    }
+
+
+    .socials a {
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: flex;
+        margin-right: -1.4rem;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+        transition: 0.3s ease;
+    }
+
+
+    .close-btn {
+        position: sticky;
+        top: 0;
+        align-self: flex-end;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #fff;
+        z-index: 1002;
+        background: #000;
+
+    }
+
+    .popup-content {
+        width: 90%;
+        position: relative;
+        height: auto;
+        min-height: 400px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        max-height: 85vh;
+    }
+
+    #popup-text {
+        overflow-y: auto;
+        flex: 1;
+    }
+
+
+
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .about-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-left img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        transform: none;
+
+    }
+
+    .about-right {
+        width: 100%;
+        text-align: center;
+        overflow: visible;
+    }
+
+    .project-link {
+        color: white;
+        text-decoration: underline;
+
+    }
+
+
+}
+
+
+
+  
