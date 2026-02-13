@@ -478,7 +478,7 @@ span {
     position: fixed;
     left: 0;
     top: 35%;
-    transform: translateY(12%);
+    transform: translateY(-10%);
     display: flex;
     flex-direction: column;
     padding: 8px;
