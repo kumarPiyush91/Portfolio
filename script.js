@@ -59,22 +59,22 @@ const contentData = {
   projects: `<ul>
         <li><a href="https://piyush-kumar.store/" class="project-link" target="_blank" rel="noopener noreferrer">
             Project 1 - Personal BookStore: secure PayPal payment integration
-          </a> </li>
+          </a> </li> <br>
 
       <li><a href="https://addons.mozilla.org/en-US/firefox/addon/laughy/" class="project-link" target="_blank" rel="noopener noreferrer">
             Project 2 - Laughy: Firefox AddOn
-          </a></li>
+          </a></li> <br>
 
       <li><a href="https://realtime-wildfire-tracker.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
             Project 3 - Realtime-wildfire-Tracker : Used NASA EONET API to fetch real-time wildfires globally.
-          </a> </li>
+          </a> </li> <br>
           
     <li>  <a href="https://www.npmjs.com/package/funny-error-excuse" class="project-link" target="_blank" rel="noopener noreferrer">
             Project 4 - Funny-error-excuse : npm Package
-          </a> </li>
+          </a> </li> <br>
     <li>  <a href="https://mamanourish.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
             Project 5 - MamaNourish: Pregnancy Nutrient Calculator
-          </a> </li>
+          </a> </li> <br>
              </ul>`
 };
 
