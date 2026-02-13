@@ -101,9 +101,9 @@ span {
 
 .btn {
   position: fixed;
-  left: 30px;
+  left: 10px;
   top: 55%;
-  transform: translateY(-50%);
+  transform: translateY(-47.5%);
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -250,6 +250,7 @@ span {
   color: #0795ed;
   cursor: pointer;
 }
+
 
 
 @media (max-width: 768px) {
@@ -471,3 +472,93 @@ span {
   
  
 }
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .btn {
+    position: fixed;
+    left: 0;
+    top: 35%;
+    transform: translateY(12%);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+  }
+
+  .btn button,
+  .btn .resume-btn {
+    font-size: 14px;
+    padding: 8px 12px;
+    width: 110px;
+    margin: 6px 10px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .name,
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .socials a {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    margin-right: -0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .popup-content {
+    width: 85%;
+    min-height: 350px;
+    max-height: 85vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #popup-text {
+    overflow-y: auto;
+    flex: 1;
+    font-size: 16px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about-left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-left img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .about-right {
+    width: 60%;
+    text-align: left;
+  }
+
+  .project-link {
+    color: white;
+    text-decoration: underline;
+  }
+
+}
+
