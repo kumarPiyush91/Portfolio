@@ -259,7 +259,7 @@ span {
     .btn {
         position: fixed;
         transform: translateY(-11rem);
-        left: -13px;
+        left: -15px;
         display: flex;
         flex-direction: column;
         padding: 5px;
@@ -279,7 +279,7 @@ span {
 
     .name,
     .container {
-        margin-left: 25px;
+        margin-left: 24px;
     }
 
 
