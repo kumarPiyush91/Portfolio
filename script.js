@@ -1,4 +1,4 @@
-// ---------------- Typed.js ----------------
+
 const typed = new Typed(".auto-type", {
   strings: [" a Frontend Developer", " a Programmer", " an Author"],
   typeSpeed: 90,
@@ -11,19 +11,19 @@ const typed = new Typed(".auto-type", {
   cursorChar: "|",
 });
 
-// ---------------- Button Elements ----------------
+
 const aboutBtn = document.querySelector('.about-btn');
 const skillsBtn = document.querySelector('.skills-btn');
 const educationBtn = document.querySelector('.education-btn');
 const experienceBtn = document.querySelector('.experience-btn');
 const projectsBtn = document.querySelector('.projects-btn');
 
-// ---------------- Popup Elements ----------------
+
 const popup = document.getElementById('popup');
 const popupText = document.getElementById('popup-text');
 const closeBtn = document.querySelector('.close-btn');
 
-// ---------------- Content for Each Section ----------------
+
 const contentData = {
   about: `
     <div class="about-content">
@@ -78,23 +78,23 @@ const contentData = {
              </ul>`
 };
 
-// Function to open popup
+
 function openPopup(content) {
   popupText.innerHTML = content;
   popup.style.display = 'flex';
 }
 
-// Event listeners
+
 aboutBtn.addEventListener('click', () => openPopup(contentData.about));
 skillsBtn.addEventListener('click', () => openPopup(contentData.skills));
 educationBtn.addEventListener('click', () => openPopup(contentData.education));
 experienceBtn.addEventListener('click', () => openPopup(contentData.experience));
 projectsBtn.addEventListener('click', () => openPopup(contentData.projects));
 
-// Close popup
+
 closeBtn.addEventListener('click', () => popup.style.display = 'none');
 
-// Close popup on outside click
+
 window.addEventListener('click', e => {
   if (e.target === popup) popup.style.display = 'none';
 });
