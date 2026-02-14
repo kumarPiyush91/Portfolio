@@ -66,16 +66,6 @@ A health-tech web application for pregnancy nutrition tracking.
 🔗 https://mamanourish.netlify.app/
 
 📁 Project Structure
-📦 portfolio
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
- ┣ 📜 particles.js
- ┣ 📜 app.js
- ┣ 📜 cv.pdf
- ┗ 📜 profile.jpg
-
-📸 Sections Included
 
 About Me
 
