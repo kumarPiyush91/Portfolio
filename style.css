@@ -258,13 +258,12 @@ span {
 
     .btn {
         position: fixed;
-        transform: translateY(-11rem);
+        transform: translateY(-12rem);
         left: -18px;
         display: flex;
         flex-direction: column;
         padding: 5px;
-       
-       width: 1rem;
+        width: 1rem;
         background: rgba(0, 0, 0, 0.95);
         z-index: 1000;
     }
@@ -366,9 +365,52 @@ span {
         text-decoration: underline;
 
     }
+}
 
+
+@media (min-width: 769px) and (max-width: 1280px) {
+
+    .btn {
+        position: fixed;
+        transform: translateY(-11rem);
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        width: 60px;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 1000;
+    }
+
+    .btn button,
+    .btn .resume-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+        width: 85px;
+        margin: 5px 16px;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;   
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .about-left img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-right {
+        text-align: left;
+    }
 
 }
+
 
 
 
