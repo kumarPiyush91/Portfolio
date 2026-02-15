@@ -251,6 +251,10 @@ span {
 }
 
 
+
+
+
+
 @media screen and (max-width: 360px) and (min-height: 850px) {
 
     .name {
@@ -281,7 +285,7 @@ span {
         transform: translateX(6px);
     }
 
-
+    
 
 }
 
@@ -406,6 +410,8 @@ span {
         color: black;
         transform: translateX(6px);
     }
+
+   
     
 }
 
@@ -465,6 +471,7 @@ span {
         transform: translateY(-3rem);
         border: 3px solid #fff;
     }
+   
 
    
 }
@@ -523,5 +530,7 @@ span {
         transform: translateY(-3rem);
         border: 3px solid #fff;
     }
+
     
 }
+
