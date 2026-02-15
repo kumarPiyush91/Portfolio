@@ -254,7 +254,7 @@ span {
 @media screen and (max-width: 360px) and (min-height: 850px) {
 
     .name {
-        top: 42%;
+        top: 38%;
         left: 50%;
         text-align: center;
     }
