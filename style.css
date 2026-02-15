@@ -468,3 +468,60 @@ span {
 
    
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .btn {
+        left: 5px; 
+        transform: translateY(10px);
+    }
+    
+    .btn button, .btn .resume-btn {
+        width: 10rem; 
+        font-size: 14px;
+        
+    }
+
+    .about-left img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .name {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .name h1 {
+        font-size: 3.2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    
+    .container {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    
+    .container h1 {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .about-left img {
+        width: 270px;
+        height: 190px;
+        top: 5rem;
+       
+        border-radius: 50%;
+        object-fit: cover;
+        transform: translateY(-3rem);
+        border: 3px solid #fff;
+    }
+    
+}
