@@ -1,4 +1,5 @@
 # Portfolio
+<<<<<<< HEAD
 🚀 Piyush Kumar – Portfolio Website
 
 Official portfolio of Piyush Kumar – Software Engineer & Author
@@ -106,3 +107,6 @@ This project is open-source and available under the MIT License.
 ⭐ If You Like This Project
 
 Give it a star ⭐ on GitHub and feel free to connect!
+=======
+Personal Portfolio with Projects
+>>>>>>> 82b8a9f5966a893728008430050dba4499743640
