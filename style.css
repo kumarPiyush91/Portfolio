@@ -165,7 +165,7 @@ span {
     height: 400px;
     background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     position: relative;
     display: flex;
@@ -409,61 +409,61 @@ span {
 }
 
 
-@media screen and (min-width: 1000px) and (max-width: 1200px) and (min-height: 1800px) and (orientation: portrait) {
 
+@media screen and (min-device-width: 800px) and (max-device-width: 810px) {
+    .btn {
+        left: 0; 
+        transform: translateY(10px);
+    }
     
+    .btn button, .btn .resume-btn {
+        width: 10rem; 
+        font-size: 14px;
+        
+    }
+
+    .about-left img {
+        width: 200px;
+        height: 200px;
+    }
+
     .name {
-        top: 42%;
+        position: absolute;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
-
+    
     .name h1 {
-        font-size: 8rem;
+        font-size: 3.2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
-
+    
     
     .container {
-        top: 52%;
+        position: absolute;
+        top: 38%;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-
     }
-
-    .container h1 {
-        font-size: 5rem;
-    }
-
     
-    .btn {
-        top: 30%;
-        left: 20px;
+    .container h1 {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .about-left img {
+        width: 270px;
+        height: 190px;
+        top: 5rem;
+       
+        border-radius: 50%;
+        object-fit: cover;
+        transform: translateY(-3rem);
+        border: 3px solid #fff;
     }
 
-
-    .btn button,
-    .btn a {
-       padding: 40px 44px;
-       font-size: 2rem;
-       border-radius: 60px;
-       transition: all 0.3s ease;
-    }
-
-
-
-    .socials a {
-        width: 7rem;
-        height: 7rem;
-        font-size: 4rem;
-    }
-
-     .btn button:hover,
-    .btn a:hover {
-        background: #fff724;
-        color: black;
-        transform: translateX(6px);
-    }
-
+   
 }
