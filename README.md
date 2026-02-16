@@ -1,5 +1,4 @@
 # Portfolio
-<<<<<<< HEAD
 🚀 Piyush Kumar – Portfolio Website
 
 Official portfolio of Piyush Kumar – Software Engineer & Author
