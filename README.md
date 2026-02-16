@@ -79,7 +79,8 @@ Optimized for:
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/piyush-kumar-176001263/)
 - 💻 [GitHub](https://github.com/kumarPiyush91)
-- 📧 Email: [p041991@gmail.com](mailto:p041991@gmail.com?subject=Portfolio%20Inquiry)
+- 📧 Email: [Contact via Gmail](https://mail.google.com/mail/?view=cm&fs=1&to=p041991@gmail.com&su=Portfolio%20Inquiry)
+
  
 
 ---
