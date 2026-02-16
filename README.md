@@ -40,27 +40,27 @@ Particles.js
 Font Awesome
 
 📂 Projects Showcased :<br>
-📚 1. Personal BookStore
+📚 1. Personal BookStore-<br>
 
 Secure e-commerce website with PayPal payment integration.
 🔗 https://piyush-kumar.store/
 
-🧩 2. Laughy – Firefox Add-on
+😁 2. Laughy – Firefox Add-on-<br>
 
 A browser extension available on Firefox Add-ons Store.
 🔗 https://addons.mozilla.org/en-US/firefox/addon/laughy/
 
-🔥 3. Realtime Wildfire Tracker
+🔥 3. Realtime Wildfire Tracker-<br>
 
 Tracks wildfire data dynamically using real-time APIs.
 🔗 https://realtime-wildfire-tracker.netlify.app/
 
-📦 4. Funny Error Excuse (npm Package)
+📦 4. Funny Error Excuse (npm Package)-<br>
 
 A lightweight npm package generating random funny error excuses.
 🔗 https://www.npmjs.com/package/funny-error-excuse
 
-🥗 5. MamaNourish – Pregnancy Nutrient Calculator
+🥗 5. MamaNourish – Pregnancy Nutrient Calculator-<br>
 
 A health-tech web application for pregnancy nutrition tracking.
 🔗 https://mamanourish.netlify.app/
