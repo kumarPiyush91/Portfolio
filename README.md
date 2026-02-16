@@ -1,111 +1,93 @@
-# Portfolio
-🚀 Piyush Kumar – Portfolio Website
+# 🚀 Piyush Kumar – Portfolio
 
-Official portfolio of Piyush Kumar – Software Engineer & Author,<br>
-Built to showcase my skills, experience, and real-world projects through a modern and interactive web interface.
+Official portfolio of **Piyush Kumar – Software Engineer & Author**  
+Built to showcase skills, experience, and real-world projects through a modern and interactive web interface.
 
-🌐 Live Demo
+---
 
-🔗 Portfolio Website:
-https://piyush-kumar.com
+## 🌐 Live Website
 
-✨ Features
+🔗 **[Visit Portfolio](https://piyush-kumar.com)**
 
-🎯 Interactive popup-based content sections
+---
 
-⚡ Dynamic typing animation using Typed.js
+## ✨ Features
 
-🌌 Animated particle background (Particles.js)
+- 🎯 Interactive popup-based content sections  
+- ⚡ Dynamic typing animation (Typed.js)  
+- 🌌 Animated particle background (Particles.js)  
+- 📱 Fully responsive design (Mobile optimized)  
+- 🔗 Social media integration  
+- 📄 Resume download functionality  
+- 💡 Clean and modern UI  
 
-📱 Fully responsive design (Mobile optimized)
+---
 
-🔗 Social media integration
+## 🛠 Tech Stack
 
-📄 Resume download functionality
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Typed.js  
+- Particles.js  
+- Font Awesome  
 
-💡 Clean and modern UI
+---
 
-🛠 Tech Stack
+## 📂 Featured Projects
 
-HTML5
+### 📚 1. Personal BookStore
+Secure e-commerce website with PayPal integration.  
+🔗 **Live:** https://piyush-kumar.store/
 
-CSS3
+---
 
-JavaScript (ES6)
+### 😁 2. Laughy – Firefox Add-on
+Browser extension available on Firefox Add-ons Store.  
+🔗 **Store:** https://addons.mozilla.org/en-US/firefox/addon/laughy/
 
-Typed.js
+---
 
-Particles.js
+### 🔥 3. Realtime Wildfire Tracker
+Tracks wildfire data dynamically using real-time APIs.  
+🔗 **Live:** https://realtime-wildfire-tracker.netlify.app/
 
-Font Awesome
+---
 
-📂 Projects Showcased :<br>
-📚 1. Personal BookStore-<br>
+### 📦 4. Funny Error Excuse (npm Package)
+Lightweight npm package generating random funny error excuses.  
+🔗 **NPM:** https://www.npmjs.com/package/funny-error-excuse
 
-Secure e-commerce website with PayPal payment integration.
-🔗 https://piyush-kumar.store/
+---
 
-😁 2. Laughy – Firefox Add-on-<br>
+### 🥗 5. MamaNourish – Pregnancy Nutrient Calculator
+Health-tech web application for pregnancy nutrition tracking.  
+🔗 **Live:** https://mamanourish.netlify.app/
 
-A browser extension available on Firefox Add-ons Store.
-🔗 https://addons.mozilla.org/en-US/firefox/addon/laughy/
+---
 
-🔥 3. Realtime Wildfire Tracker-<br>
+## 📱 Responsive Design
 
-Tracks wildfire data dynamically using real-time APIs.
-🔗 https://realtime-wildfire-tracker.netlify.app/
+Optimized for:
+- Desktop  
+- Tablet  
+- Mobile Devices  
 
-📦 4. Funny Error Excuse (npm Package)-<br>
+---
 
-A lightweight npm package generating random funny error excuses.
-🔗 https://www.npmjs.com/package/funny-error-excuse
+## 📬 Contact
 
-🥗 5. MamaNourish – Pregnancy Nutrient Calculator-<br>
+- 💼 [LinkedIn](https://www.linkedin.com/in/piyush-kumar-176001263/)
+- 💻 [GitHub](https://github.com/kumarPiyush91)
+- 📧 Email: [p041991@gmail.com](mailto:p041991@gmail.com?subject=Portfolio%20Inquiry)
+ 
 
-A health-tech web application for pregnancy nutrition tracking.
-🔗 https://mamanourish.netlify.app/
+---
 
-📁 Project Structure
+## 📄 License
 
-About Me
+This project is licensed under the MIT License.
 
-Skills
+---
 
-Education
-
-Experience
-
-Projects
-
-Resume
-
-📱 Responsive Design
-
-The website is optimized for:
-
-Desktop
-
-Tablet
-
-Mobile Devices
-
-Popup modal system ensures smooth scrolling and proper content wrapping across devices.
-
-📬 Contact Me:
-
-LinkedIn: https://www.linkedin.com/in/piyush-kumar-176001263/
-
-GitHub: https://github.com/kumarPiyush91
-
-Email: p041991@gmail.com
-
-📄 License
-
-This project is open-source and available under the MIT License.
-
-⭐ If You Like This Project
-
-Give it a star ⭐ and feel free to connect!
-
-
-
+⭐ If you like this project, consider giving it a star!
