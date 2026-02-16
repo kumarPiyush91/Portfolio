@@ -319,7 +319,7 @@ span {
 
     .name,
     .container {
-        margin-left: 20px;
+        margin-left: 1rem;
         margin-top: -2.5rem;
     }
 
@@ -532,5 +532,15 @@ span {
     }
 
     
+}
+
+@media screen and (max-width: 344px) and (min-height: 882px){
+    .name {
+        margin: 1rem 0 0 1rem;
+     }
+     .container{
+        margin-top: -15px;
+     }
+
 }
 

@@ -54,7 +54,7 @@ const contentData = {
                  <li><b>Degree :</b> History(Honors)<br> Vinoba Bhave University, India (2016-2019)<br> First Class with 64%
                 </ul>`,
   experience: `<ul>
-                 <li>Company : Promit & Company</li>GSTIN : 20ABBFP3869L1Z2 <br> ARN : AA201125025773P<br>Role : Frontend Developer<br>Duration : 2021-Present<br> Responsibilities : Developing rsponsive web application, Collaborating with Design & backend team, implementing new features using modern frontend technologies.
+                 <li>Company : Promit & Company</li>GSTIN : 20ABBFP3869L1Z2 <br> ARN : AA201125025773P<br>Role : Frontend Developer<br>Duration : 2021-Present<br> Responsibilities : Developing responsive web application, Collaborating with Design & backend team, implementing new features using modern frontend technologies.
                  </ul>`,
   projects: `<ul>
         <li><a href="https://piyush-kumar.store/" class="project-link" target="_blank" rel="noopener noreferrer">
