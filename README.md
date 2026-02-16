@@ -37,7 +37,7 @@ Built to showcase skills, experience, and real-world projects through a modern a
 ## 📂 Featured Projects
 
 ### 📚 1. Personal BookStore
-Secure e-commerce website with PayPal integration.  
+Secure e-commerce website with PayPal integration.
 🔗 **Live:** https://piyush-kumar.store/
 
 ---
