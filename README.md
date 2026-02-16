@@ -75,11 +75,12 @@ Optimized for:
 
 ---
 
-## 📬 Contact
+## 📬 Contact Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/piyush-kumar-176001263/)
 - 💻 [GitHub](https://github.com/kumarPiyush91)
-- 📧 Email: [Contact via Gmail](https://mail.google.com/mail/?view=cm&fs=1&to=p041991@gmail.com&su=Portfolio%20Inquiry)
+- 📧 [Email](https://mail.google.com/mail/?view=cm&fs=1&to=p041991@gmail.com&su=Portfolio%20Inquiry)
+
 
  
 
